@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: f486c3dc86f7c130de9de1662dc7b2419fc54e5de006f6ef376a8cce54bbe406
+      POSTGRES_USERNAME: fuskxctvamxajy
+
